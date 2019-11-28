@@ -1,0 +1,17 @@
+.CTA {
+  font-family: $font-mont;
+  @include normal-text;
+  font-size: $font-size-normal;
+  line-height: 17px;
+
+  text-align: center;
+  letter-spacing: 0.396667px;
+  text-transform: uppercase;
+
+  padding: 21px 42px;
+  background-color: $secondary-color;
+  color: $dark-color;
+  &:hover {
+    background-color: $primary-light-color;
+  }
+}

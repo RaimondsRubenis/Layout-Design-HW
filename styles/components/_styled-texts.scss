@@ -1,0 +1,13 @@
+.signature {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+  p {
+    font-family: $font-signature;
+    @include normal-text;
+    font-size: 40px;
+    line-height: 53px;
+    text-align: center;
+    letter-spacing: 1.13333px;
+  }
+}

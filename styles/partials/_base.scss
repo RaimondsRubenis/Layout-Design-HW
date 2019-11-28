@@ -1,0 +1,31 @@
+body {
+  background-color: $light-color;
+}
+
+@mixin auto-margin() {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin mobile-image-container() {
+  max-height: none;
+  display: flex;
+  justify-content: center;
+}
+
+@mixin mobile-width() {
+  width: 90%;
+  height: auto;
+}
+
+@mixin normal-text() {
+  font-style: normal;
+  font-weight: normal;
+}
+
+@mixin image-cover($width, $height, $position) {
+  width: $width;
+  height: $height;
+  object-fit: cover;
+  object-position: $position;
+}

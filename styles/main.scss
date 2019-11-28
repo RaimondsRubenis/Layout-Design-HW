@@ -1,0 +1,17 @@
+//Reset margins and text decoration, in a long-terms, more reset elements can be added
+@import "partials/reset";
+
+//Import Colours & typography variables
+@import "modules/colours";
+@import "partials/typography";
+
+//Import base, common for all pages, including mixin's
+@import "partials/base";
+
+//Import style for repetative, themed texts
+@import "components/styled-texts";
+@import "components/buttons";
+
+//Import also front page style, as it's the only page currently
+@import "pages/front-page";
+@import "pages/mobile/front-page";
